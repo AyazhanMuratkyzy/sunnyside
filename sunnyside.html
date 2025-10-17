@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    header{
+      background-image: url(images/desktop/image-header.jpg);
+      height: 100vh;
+    }
+
+    .logo{
+      padding: 20px;
+    }
+
+    .top{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      color: white;
+      margin-left: 1170px;
+      margin-bottom: 40px;
+    }
+
+    button{
+      background-color: white;
+      color: black;
+      border: none;
+      border-radius: 30px;
+      width: 120px;
+      height: 30px;
+      margin-top: 10px;
+    }
+
+    h1{
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .tranform{
+      background-color: white;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .trfrtext{
+      width: 720px;
+    }
+
+
+    .standtext{
+      width: 720px;
+      height: 400px;
+      font-size: 22px;
+      padding: 50px;
+      margin-bottom: 30px;
+    }
+
+    .standout{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .graphic{
+      background-image: url(images/desktop/image-graphic-design.jpg);
+      width: 720px;
+      height: 600px;
+    }
+
+    .grtext{
+      padding: 200px;
+      width: 300px;
+      font-size: 18px;
+    }
+
+    .photography{
+      background-image: url(images/desktop/image-photography.jpg);
+      width: 720px;
+      height: 600px;
+    }
+
+    .four{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .clients h3{
+      color: hsl(213, 9%, 39%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .avatar{
+      border-radius: 70px;
+      width: 70px;
+      height: 70px;
+    }
+
+    .imageslast{
+      display: flex;
+      flex-direction: row;
+      width: 480px;
+      height: 400px;
+    }
+
+    .bottom{
+      background-color: hsl(167, 34%, 41%);
+      height: 400px;
+    }
+
+    .logobottom{
+      margin-left: 700px;
+      margin-bottom: 20px;
+    }
+
+    .about{
+      color: hsl(167, 40%, 24%);
+      display: flex;
+      flex-direction: row;
+      margin-left: 600px;
+      gap: 20px;
+    }
+
+    .icons{
+      margin-left: 700px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+<header>
+<img src="images/logo.svg" class="logo">
+<div class="top">
+<p>About</p>
+<p>Services</p>
+<p>Projects</p>
+<button>Contact</button>
+</div>
+  <h1>WE ARE CREATIVES</h1>
+</header>
+<div class="transform">
+  <div class="trfrtext">
+  <h3>Transform your brand</h3>
+
+  <span>We are a full-service creative agency specializing in helping brands grow fast. 
+  Engage your clients through compelling visuals that do most of the marketing for you.</span>
+
+  <h5>LEARN MORE</h5>
+  </div>
+  <img src="images/desktop/image-transform.jpg" alt="transform" class="imgtransform">
+</div>
+<div class="standout">
+  <img src="images/desktop/image-stand-out.jpg" alt="standout" class="imgstand">
+  <div class="standtext">
+  <h3>Stand out to the right audience</h3>
+
+  <span>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</span> 
+
+  <h5>LEARN MORE</h5>
+  </div>
+  </div>
+  <div class="four">
+  <div class="graphic">
+    <div class="grtext">
+  <h3>Graphic design</h3>
+  <span>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</span>
+  </div>
+  </div>
+  <div class="photography">
+  <h3>Photography</h3>
+  <span>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</span>
+  </div>
+  </div>
+  <div class="clients">
+  <h3>CLIENT TESTIMONIALS</h3>
+  <div class="column">
+  <img src="images/image-emily.jpg" class="avatar">
+  <img src="images/image-thomas.jpg" class="avatar">
+  <img src="images/image-jennie.jpg" class="avatar">
+  <span>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</span>
+  <h5>Emily R.</h5>
+  <span>Marketing Director</span>
+  </div>
+  <div class="column">
+  
+  <span>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</span>
+  <h5>Thomas S.</h5>
+  <span>Chief Operating Officer</span>
+  </div>
+  <div class="column"></div>
+  
+  <span>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</span>
+  <h5>Jennie F.</h5>
+  <span>Business Owner</span>
+  </div>
+  </div>
+  <div class="imageslast">
+  <img src="images/desktop/image-gallery-milkbottles.jpg" alt="milk" class="imageslast">
+  <img src="images/desktop/image-gallery-orange.jpg" alt="orange" class="imageslast">
+  <img src="images/desktop/image-gallery-cone.jpg" alt="cone" class="imageslast">
+  <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="cube" class="imageslast">
+  </div>
+  <div class="bottom">
+  <img src="images/logo.svg" class="logobottom">
+  <div class="about">
+  <p>About</p>
+  <p>Services</p>
+  <p>Projects</p>
+  <p>Contact</p>
+  </div>
+  <img src="images/icon-facebook.svg" class="icons">
+  <img src="images/icon-instagram.svg" class="icons">
+  <img src="images/icon-twitter.svg" class="icons">
+  <img src="images/icon-pinterest.svg" class="icons">
+  </div>
+</div>
+  </div>
+</body>
+</html>
